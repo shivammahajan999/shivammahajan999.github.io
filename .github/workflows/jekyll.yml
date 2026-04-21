@@ -1,4 +1,4 @@
-name: Deploy Jekyll site to Pages
+name: Build and Deploy Jekyll Site
 
 on:
   push:
@@ -8,10 +8,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -24,13 +20,13 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.1"
+          ruby-version: "3.2"
           bundler-cache: true
 
       - name: Install dependencies
         run: |
           gem install bundler
-          bundle install
+          bundle install --full-index
 
       - name: Build site
         run: bundle exec jekyll build
@@ -41,14 +37,9 @@ jobs:
           path: ./_site
 
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
 
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
