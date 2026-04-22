@@ -1,98 +1,60 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shivam Mahajan",
+    "label": "Research Fellow",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
+    "email": "shivammahajan999@gmail.com",
+    "phone": "(+65) 88951385",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "#12-516 Jurong West St 65",
+      "postalCode": "640611",
+      "city": "Singapore",
+      "countryCode": "SG"
     },
     "profiles": []
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "name": "Nanyang Technological University",
+      "position": "Research Fellow",
+      "location": "Singapore",
+      "startDate": "24-05-2022",
+      "endDate": "31-07-2026",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
-    },
-    {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "highlights": ["glasses", "relaxation dynamics"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "NTU World of Wisdom",
+      "location": "Singapore",
+      "position": "Team Lead",
+      "startDate": "01-06-2020",
+      "endDate": "31-05-2021",
+      "summary": "Team lead for the Operations and Logistics team to organize TEDxNTU."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
+      "institution": "Nanyang Technological University",
+      "location": "Singapore",
+      "url": "https://www.ntu.edu.sg/",
       "area": "Physics",
       "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "31-07-2017",
+      "endDate": "31-03-2022",
       "score": "",
       "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": ["Granular assemblies", "Disordered solids"]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
+      "institution": "Guru Nanak Dev University",
+      "location": "Amritsar, India",
       "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "studyType": "Masters of Science (Hons)",
+      "startDate": "01-08-2014",
+      "endDate": "30-06-2016",
       "score": "",
       "courses": [],
       "highlights": ["Description 1.", "Description 2."]
@@ -100,19 +62,12 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    },
-    {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
+      "title": "Gold Medal in Physics",
+      "date": "31-07-2022",
+      "awarder": "Materials Research Society of Singapore",
+      "url": "https://www.ntu.edu.sg/spms/news-events/news/detail/2022-graduate-award-winners-for-the-school-of-physical-and-mathematical-sciences",
       "summary": ""
-    }
-  ],
+    },
   "certificates": [
     {
       "name": "Machine Learning",
@@ -173,13 +128,13 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Hindi",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
@@ -199,14 +154,9 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Massimo Pica Ciamarra",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "reference": " "
     }
   ],
   "projects": [
