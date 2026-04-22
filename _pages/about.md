@@ -13,11 +13,11 @@ profile:
     <p>Nanyang Technological University (NTU)</p>
     <p>21 Nanyang Link, Singapore</p>
 
-selected_papers: true
+selected_papers: false #true
 social: true
 
 announcements:
-  enabled: true
+  enabled: false #true
   scrollable: true
   limit: 5
 
@@ -54,14 +54,3 @@ I am also interested in developing computational tools and machine learning appr
 - Statistical mechanics frameworks  
 
 ---
-
-### Contact
-
-- Email: shivammahajan999@gmail.com  
-- Google Scholar:https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=kwbAoo8AAAAJ&sortby=pubdate  
-
----
-
-### About this website
-
-This website showcases my research, publications, and ongoing projects. It is built using a Jekyll-based academic template and serves as a central hub for my academic profile.
