@@ -261,20 +261,17 @@ layout: default
         {% endif %}
 
         <!-- JSONResume Sections - Merge work and volunteer into Experience -->
-        {% assign empty_array = '' | split: ',' %}
-        {% assign work = site.data.resume.work | default: empty_array %}
-        {% assign vol = site.data.resume.volunteer | default: empty_array %}
-        {% assign combined_experience = work | concat: vol %}
-        {% if combined_experience.size > 0 %}
+	{% assign empty_array = '' | split: ',' %}
+	{% if site.data.resume.work.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Experience</h3>
             <div>
-              {% assign entries = combined_experience %}
+              {% assign entries = site.data.resume.work %}
               {% include cv/experience.liquid %}
             </div>
           </div>
-        {% endif %}
+    	{% endif %}
 
         <!-- Education -->
         {% if site.data.resume.education.size > 0 %}
@@ -320,6 +317,18 @@ layout: default
             <div>
               {% assign entries = site.data.resume.skills %}
               {% include cv/skills.liquid %}
+            </div>
+          </div>
+  	{% endif %}
+
+	<!-- Leadership -->
+        {% if site.data.resume.volunteer.size > 0 %}
+          <a class="anchor" id="leadership"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Leadership</h3>
+            <div>
+              {% assign entries = site.data.resume.volunteer %}
+              {% include cv/experience.liquid %}
             </div>
           </div>
         {% endif %}
