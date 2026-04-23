@@ -85,15 +85,15 @@
     {
       "organization": "NTU World of Wisdom (WoW)",
       "position": "Advisor",
-      "startDate": "2022-01",
-      "endDate": "",
+      "startDate": "2022-06",
+      "endDate": "2023-05",
       "summary": "Guiding student leaders in organization of various events."
     },
     {
       "organization": "TEDxNTU",
       "position": "Team Lead, Operations & Logistics",
-      "startDate": "2020-01",
-      "endDate": "2022-12",
+      "startDate": "2020-06",
+      "endDate": "2022-05",
       "summary": "Led a team of about fifty people and contributed towards the successful organization of the biggest TED conference in Singapore."
     },
     {
@@ -270,16 +270,7 @@
       "keywords": ["Travelling", "Reading novels", "Cricket", "Table-tennis", "Sudoku"]
     }
   ],
-  "references": [
-    {
-      "name": "Prof. Massimo Pica Ciamarra",
-      "reference": "Associate Professor, Nanyang Technological University, Singapore. Email: massimo@ntu.edu.sg"
-    },
-    {
-      "name": "Prof. Matteo Baggioli",
-      "reference": "Associate Professor, Jiao Tong University Shanghai. Email: b.matteo@sjtu.edu.cn"
-    }
-  ],
+  "references": [ ],
   "projects": [
     {
       "name": "Summer Research Fellowship — BARC",
