@@ -5,7 +5,7 @@ title: Selected Publications
 nav: true
 nav_order: 2
 
-description: Full list available on <a href="https://scholar.google.com/citations?user=kwbAoo8AAAAJ" target="_blank">Google Scholar</a>
+Full list available on <a href="https://scholar.google.com/citations?user=kwbAoo8AAAAJ" target="_blank">Google Scholar</a>
 
 ---
 
