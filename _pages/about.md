@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
 subtitle: Computational Physics | Soft Matter | Non-equilibrium Systems
 
