@@ -40,11 +40,6 @@
             avoid_scaling=true
             alt=entry.preview
           %}
-          {% if entry.caption %}
-            <div class="caption" style="font-size: 0.75em; text-align: center; margin-top: 4px; color: var(--global-text-color-light);">
-              {{ entry.caption }}
-            </div>
-          {% endif %}
   	{% endif %}
       {% endif %}
     </div>
@@ -191,6 +186,11 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if entry.caption %}
+      <div class="caption" style="font-size: 0.85em; margin-top: 4px; color: var(--global-text-color-light); font-style: italic;">
+        {{ entry.caption }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
